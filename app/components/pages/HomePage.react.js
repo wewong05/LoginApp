@@ -5,7 +5,7 @@ var { connect } = require('react-redux');
 
 var Homepage = (props) => {
 
-	const loggedIn = false;
+	const loggedIn = true;
 	const dispatch = false;
   return (
     <div>
@@ -20,7 +20,7 @@ var Homepage = (props) => {
 						) : (
 						<h1>Welcome to AppName!</h1>
 					)}
-					<p>I used <a href="https://github.com/mxstbr/react-boilerplate">react-boilerplate</a> as a starting point — the app thus uses Redux, PostCSS, react-router, ServiceWorker, AppCache, bcrypt and lots more. See the full source code on <a href="https://github.com/mxstbr/login-flow">Github</a>!</p>
+					<p>I used <a href="https://github.com/mxstbr/react-boilerplate">react-boilerplate</a> as a starting point. See the full source code on <a href="https://github.com/mxstbr/login-flow">Github</a>!</p>
 					<p>The default username is <code>AzureDiamond</code> and the default password is <code>hunter2</code></p>
 					{loggedIn ? (
 						<Link to="/dashboard" className="btn btn--dash">Dashboard</Link>
