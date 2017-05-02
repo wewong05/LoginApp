@@ -10,7 +10,10 @@ var Navigation = () => {
             AppName
           </li>
           <li>
-            <IndexLink to="/" activeClassName="active-link">Timer</IndexLink>
+            <IndexLink to="/" activeClassName="active-link">Homepage</IndexLink>
+          </li>
+          <li>
+            <Link to="/timer" activeClassName="active-link">Timer</Link>
           </li>
           <li>
             <Link to="/countdown" activeClassName="active-link">Countdown</Link>

@@ -5,7 +5,7 @@ module.exports = {
   entry: [
     'script!jquery/dist/jquery.min.js',
     'script!foundation-sites/dist/foundation.min.js',
-    './app/app.react.js'
+    './app/app.js'
   ],
   externals: {
     jquery: 'jQuery'
@@ -31,7 +31,8 @@ module.exports = {
       Clock: 'app/components/Clock.react.js',
       CountdownForm: 'app/components/CountdownForm.react.js',
       Controls: 'app/components/Controls.react.js',
-      About: 'app/components/About.react.js'
+      About: 'app/components/About.react.js',
+      Homepage: 'app/components/pages/HomePage.react.js'
     },
     extensions: ['', '.js', '.jsx']
   },
