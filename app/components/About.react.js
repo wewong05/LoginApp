@@ -8,17 +8,15 @@ var About = (props) => {
         This is a testing application build on React. 
       </p>
       <p>
-        Here are some of the tools I used:
+        Here are some of the references:
       </p>
       <ul>
         <li>
-          <a href="https://facebook.github.io/react">React</a> - This was the
-            JavaScript framework used.
+          <a href="https://facebook.github.io/react">React</a> - This was the JavaScript framework used.
         </li>
         <li>
-          <a href="http://openweathermap.org">Open Weather Map</a> - I used
-            Open Weather Map to search for weather data by city name.
-        </li>
+          <a href="https://github.com/LucMerceron/React-Redux-D3">React-Rdux-D3</a> - This is the D3 charts example to be ported in
+        <li>
       </ul>
       <p>
         The main dashboard will include the following components:
@@ -28,13 +26,13 @@ var About = (props) => {
           Will check for authenication.. if not logged on or timeout session, will go into login page.
         </li>
         <li>
-          Alert Zone
+          Alert Zone - Using the timer as a references, will adjust the radius to be smaller to indicate different alerts levels
         </li>
         <li>
-          Case Management
+          Case Management - 
         </li>
         <li>
-           Charts with addon tabs
+           Charts with addon tabs or Interactive Table
         </li>
       </ul>
     </div>
