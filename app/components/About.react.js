@@ -16,7 +16,7 @@ var About = (props) => {
         </li>
         <li>
           <a href="https://github.com/LucMerceron/React-Redux-D3">React-Rdux-D3</a> - This is the D3 charts example to be ported in
-        <li>
+        </li>
       </ul>
       <p>
         The main dashboard will include the following components:

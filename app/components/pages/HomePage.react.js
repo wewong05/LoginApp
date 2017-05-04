@@ -32,14 +32,20 @@ export class HomePage extends Component {
 							) : (
 							<h1>HomePage - Please login to continue!</h1>
 						)}
-						<p>The login page is referenced to mxstbr github as a starting point for login page. See the full source code on <a href="https://github.com/mxstbr/login-flow">Github</a>!</p>
-						<p>The default username is <code>AzureDiamond</code> and the default password is <code>hunter2</code></p>
+						<p>To have a look at the login code behind this application, go to <a href="https://github.com/mxstbr/login-flow">Github</a>. To run it locally:</p>
+          				<ol>
+            				<li><p>Clone the repo using <code>git clone git@github.com:mxstbr/login-flow</code></p></li>
+            				<li><p>Run <code>npm install</code> to install the dependencies.</p></li>
+            				<li><p>Run <code>npm start</code> to start the local web server</p></li>
+            				<li><p>Go to <a href="http://localhost:3000"><code>http://localhost:3000</code></a> and you should see it running!</p></li>
+          				</ol>
+          				<p>The default username is <code>AzureDiamond</code> and the default password is <code>hunter2</code></p>
 						{loggedIn ? (
 							<Link to="/dashboard" className="btn btn--dash">Dashboard</Link>
 						) : (
 						
 							<div className="row">
-          						<div className="columns small-centered small-10 medium-6 large-4">
+          						<div className="columns">
             						<div className="callout callout-auth">
               							<h3>Login</h3>
               							<p>
