@@ -17,6 +17,7 @@ export class RegisterPage extends Component {
 		const dispatch = this.props.dispatch;
 		const { formState, currentlySending } = this.props.data;
     return (
+			
 			<div className="form-page__wrapper">
 				<div className="form-page__form-wrapper">
 					<div className="form-page__form-header">

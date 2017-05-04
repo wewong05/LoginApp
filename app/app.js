@@ -100,7 +100,7 @@ ReactDOM.render(
 function tick() {
   const element = (
     <div className="footer">
-      <h3 className="text-center page-title">Copyrighted@2017 ....</h3>
+      <h3 className="text-center">Copyrighted@2017 ....</h3>
       <p className="text-center">Time now is {new Date().toLocaleTimeString()}.</p>
     </div>
   );
